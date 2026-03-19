@@ -114,7 +114,7 @@ function aboyuma_get_post_views($postID) {
         set_transient($transient_key, $count, 12 * HOUR_IN_SECONDS);
     }
 
-    return '<span style="margin-left: 10px;">📊 ' . $count . '</span>';
+    return '<span style="margin-left: 5px;">📊 ' . $count . '</span>';
 }
 
 // =========================
