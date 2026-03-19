@@ -3,7 +3,7 @@
 /**
  * Plugin Name: ABO YUMA Post Views Counter
  * Description: Track unique post views using IP + Transients (anti-bot, admin ignore, 24h unique).
- * Version: 1.0
+ * Version: 1.0.1
  * Author: ABO YUMA
  */
 
@@ -114,7 +114,7 @@ function aboyuma_get_post_views($postID) {
         set_transient($transient_key, $count, 12 * HOUR_IN_SECONDS);
     }
 
-    return '📊 ' . $count;
+    return '<span style="margin-left: 10px;">📊 ' . $count . '</span>';
 }
 
 // =========================
