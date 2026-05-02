@@ -3,7 +3,9 @@
 A lightweight custom WordPress plugin to track unique post views using IP + Transients.  
 Built specifically for the ABO YUMA theme.
 
-## Features
+<img src="post-views-preview.png" width="500"/>
+
+## ✨ Features
 
 - Count unique views per IP (24 hours)
 - Ignore bots (basic user-agent filtering)
@@ -13,14 +15,12 @@ Built specifically for the ABO YUMA theme.
 - No external database tables required
 - Works automatically on single post pages
 
-## Installation
+## ⚙️ Installation
 
 1. Upload the plugin folder to `/wp-content/plugins/`
 2. Activate the plugin from the WordPress admin panel
 
-## Usage
-
-### Display in theme
+## 🎨 Display in theme
 
 ```php
 if (function_exists('aboyuma_get_post_views')) {
