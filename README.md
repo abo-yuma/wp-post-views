@@ -1,5 +1,10 @@
 # ABO YUMA Post Views Counter
 
+![Version](https://img.shields.io/badge/version-1.0.2-blue) 
+![License](https://img.shields.io/badge/license-MIT-green) 
+![WordPress](https://img.shields.io/badge/WordPress-Plugin-21759b) 
+![PHP](https://img.shields.io/badge/PHP-7.4%2B-777bb4)
+
 A lightweight custom WordPress plugin to track unique post views using IP + Transients.  
 Built specifically for the ABO YUMA theme.
 
